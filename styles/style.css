@@ -213,7 +213,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media screen and  (max-width: 370px){
+@media screen and  (max-width: 400px){
     header{
         min-height: 0px;
     }
