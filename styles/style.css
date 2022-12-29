@@ -212,3 +212,51 @@ footer a:hover{
     color: var(--cor3);
     text-decoration: underline;
 }
+
+@media screen and  (max-width: 370px){
+    header{
+        min-height: 0px;
+    }
+    
+    header > h1{
+        font-size: 2.4em;
+    }
+
+    header > p{
+        font-size: 0.8em;
+    }
+
+    nav{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav > a{
+        padding: 10px;
+        font-size: 0.8em;
+        
+    }
+
+    main h1{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    main h2{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    main p{
+        font-size: 0.9em;
+    }
+
+    aside > p{
+        font-size: 0.9em;
+    }
+
+    aside > ul{
+        font-size: 0.8em;
+    }
+}
